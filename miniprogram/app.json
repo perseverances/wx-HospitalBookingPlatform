@@ -14,7 +14,10 @@
     "pages/openapi/cloudid/cloudid",
     "pages/im/im",
     "pages/im/room/room",
-    "pages/tabOne/tabOne"
+    "pages/tabOne/tabOne",
+    "pages/detail/detail",
+    "pages/online/online",
+    "pages/detail/appointment/appointment"
   ],
   "window": {
     "navigationBarBackgroundColor": "#fb0",

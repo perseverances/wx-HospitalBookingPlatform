@@ -63,7 +63,7 @@ Page({
         icon: 'none',
         duration: 2000
       })
-    }, '15811111111', '验证码为:3322');
+    }, '15009292103', '验证码为:3322');
   },
   timer: function () {
     let promise = new Promise((resolve, reject) => {
@@ -96,6 +96,19 @@ Page({
     console.log('验证码: ' + this.data.code);
 
     //省略提交过程
+    wx.navigateTo({     //页面跳转  参考：https://blog.csdn.net/Yanzudada/article/details/82055177
+      url: '../detail/detail?str=' + this.data.phone,
+      success:function()
+      {
+        wx.setNavigationBarTitle({
+          title: '个人信息',
+        })
+        wx.showNavigationBarLoading();
+        setTimeout(function(){
+          wx.hideNavigationBarLoading();
+        },2000)
+      }
+    })
   },
 
 
