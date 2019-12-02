@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/tabOne/tabOne",
     "pages/tabTwo/tabTwo",
     "pages/index/index",
     "pages/userConsole/userConsole",
@@ -13,10 +14,14 @@
     "pages/openapi/callback/callback",
     "pages/openapi/cloudid/cloudid",
     "pages/im/im",
+    "pages/dating/dating",
     "pages/im/room/room",
-    "pages/tabOne/tabOne",
-    "pages/detail/detail",
+    
     "pages/online/online",
+    "pages/online/url1/url1",
+    "pages/online/url2/url2",
+    "pages/online/url3/url3",
+    "pages/please/please",
     "pages/detail/appointment/appointment"
   ],
   "window": {
@@ -44,12 +49,6 @@
         "text": "我的预约",
         "iconPath": "pages/images/tab/second.png",
         "selectedIconPath": "pages/images/tab/second.png"
-      },
-      {
-        "pagePath": "pages/index/index",
-        "text": "控制后台",
-        "iconPath": "pages/images/tab/first.png",
-        "selectedIconPath": "pages/images/tab/first.png"
       }
     ]
   },

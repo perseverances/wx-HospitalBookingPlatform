@@ -1,40 +1,50 @@
 <!--pages/online/online.wxml-->
-<view class="container">
-  
-  <form bindsubmit="MyfromSubmit" report-submit="true">
-  <view class="Myfrom clear">
-    <view class="form-text">
-      <label>您的姓名：</label>
-      <input type="text" placeholder="仅用于预约使用" name="patients" maxlength="32" placeholder-class="input-placeholder" class="from-input" />
-    </view>
-    <view class="form-text">
-      <label>您的电话：</label>
-      <input type="text" placeholder="仅用于预约使用" name="tel" maxlength="32" placeholder-class="input-placeholder" class="from-input" />
-    </view>
-    <view class="form-text">
-      <label>预约日期：</label>
-      <picker mode="date" value="{{today}}" start="{{today}}" name="yydate"  bindchange="bindDateChange" class="from-input" >
-        <view class="dateoption">
-          {{today}}
-        </view>
-      </picker>
-    </view>
-    <view class="form-text">
-      <label>预约专家：</label>
-      <picker mode="selector" bindchange="bindDoctorChange" name="yydoctor" value="{{doctlist[index].doctorName}}" range="{{doctlist}}" range-key="doctorName" class="from-input" >
-          <view class="dateoption">
-            {{doctlist[index].doctorName}}
-          </view>
-        </picker>
-    </view>
-  </view>
-  <view class="form-textarea">
-      <textarea maxlength="200" name="content" placeholder-class="input-placeholder" placeholder="（非必填）可简单描述您的症状或者病情" />
-  </view>
-  <view class="form-submit">
-      <button size="default" loading="{{loading}}" class="online-submit" form-type="submit">提交</button>
-  </view>
-  </form>
-  <template is="hospitalinfo" />
-  <template is="foot" />
+<!--小程序中没有列表元素，用view-->
+<view class="anglesList"> 
+  <navigator url='url1/url1' class="anglesNavigator"> 
+    <!--图片套个view是为了渐变的边框（其实是背景色渐变，border-radius后border写不上渐变）。--> 
+    <view class="imgBox"> 
+      <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574612556026&di=cf3b14de61135503d823e61bfddaf0e2&imgtype=0&src=http%3A%2F%2Fimg.qqzhi.com%2Fuploads%2F2018-12-06%2F234313309.jpg" mode="aspectFill"></image> 
+      <!--images中的mode="aspectFill"让图片保持纵横比缩放，让图片的短边能完全显示出来。确保取到的图片不是正方形时不留空白。--> 
+    </view> 
+    <view class="textBox"> 
+      <text class="name">北医三院</text>
+      <text class="companyName">三甲</text> 
+      <text class="num">海淀</text> 
+    </view> 
+  </navigator> 
+  <navigator url='url1/url1' class="btnFollowed">可预约</navigator> 
+</view>
+
+
+<view class="anglesList"> 
+  <navigator url='url2/url2' class="anglesNavigator"> 
+    <!--图片套个view是为了渐变的边框（其实是背景色渐变，border-radius后border写不上渐变）。--> 
+    <view class="imgBox"> 
+      <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574612556026&di=cf3b14de61135503d823e61bfddaf0e2&imgtype=0&src=http%3A%2F%2Fimg.qqzhi.com%2Fuploads%2F2018-12-06%2F234313309.jpg" mode="aspectFill"></image> 
+      <!--images中的mode="aspectFill"让图片保持纵横比缩放，让图片的短边能完全显示出来。确保取到的图片不是正方形时不留空白。--> 
+    </view> 
+    <view class="textBox"> 
+      <text class="name">306医院</text>
+      <text class="companyName">三甲</text> 
+      <text class="num">朝阳</text> 
+    </view> 
+  </navigator> 
+  <navigator url='url2/url2' class="btnFollowed">可预约</navigator> 
+</view>
+
+<view class="anglesList"> 
+  <navigator url='url3/url3' class="anglesNavigator"> 
+    <!--图片套个view是为了渐变的边框（其实是背景色渐变，border-radius后border写不上渐变）。--> 
+    <view class="imgBox"> 
+      <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574612556026&di=cf3b14de61135503d823e61bfddaf0e2&imgtype=0&src=http%3A%2F%2Fimg.qqzhi.com%2Fuploads%2F2018-12-06%2F234313309.jpg" mode="aspectFill"></image> 
+      <!--images中的mode="aspectFill"让图片保持纵横比缩放，让图片的短边能完全显示出来。确保取到的图片不是正方形时不留空白。--> 
+    </view> 
+    <view class="textBox"> 
+      <text class="name">北京同仁医院</text>
+      <text class="companyName">三甲</text> 
+      <text class="num">东城</text> 
+    </view> 
+  </navigator> 
+  <navigator url='url3/url3' class="btnFollowed">可预约</navigator> 
 </view>

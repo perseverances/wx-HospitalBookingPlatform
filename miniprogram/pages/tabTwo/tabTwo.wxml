@@ -1,13 +1,11 @@
 <!--pages/tabTwo/tabTwo.wxml-->
 <view class="container">
-  
-  
   <view class='row'>
-     <input placeholder='请输入手机号' bindinput='bindPhoneInput'/> 
+     <input placeholder='请输入手机号' maxlength="11" bindinput='bindPhoneInput'/> 
   </view>
   <view class='row'>
-     <input placeholder='请输验证码' bindinput='bindCodeInput' style='width:70%;'/> 
-     <button class='codeBtn' bindtap='getCode' hidden='{{hidden}}' disabled='{{btnDisabled}}'>{{btnValue}}</button>
+     <input placeholder='请输验证码' bindinput='bindCodeInput' maxlength="4" style='width:70%;'/> 
+     <button type="warn" class='codeBtn' bindtap='getCode' hidden='{{hidden}}' disabled='{{btnDisabled}}'>{{btnValue}}</button>
   </view>
   <view>
      <button class='save' bindtap='save' >登录</button>

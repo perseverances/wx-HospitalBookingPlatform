@@ -3,6 +3,7 @@
   <!--import src="/pages/public.wxml"/-->
   <!--banner end-->
   <view class="matrix">
+
     <button open-type="contact" class="nav-btn active" hover-class="nav-hover">
       <view class="matrix-btn kswz">
         <icon class="kswz"/>
@@ -10,6 +11,7 @@
         <view class="info">足不出户 咨询专家</view>
       </view>
     </button>
+    
     <navigator url="/pages/online/online" open-type="navigate" class="nav-btn active" hover-class="nav-hover">
       <view class="matrix-btn yygh">
         <icon class="yygh"/>
@@ -17,6 +19,7 @@
         <view class="info">无需排队 免费挂号</view>
       </view>
     </navigator>
+
     <navigator url="/pages/about/about" open-type="navigate" class="nav-btn active" hover-class="nav-hover">
       <view class="matrix-btn gtpp">
         <icon class="gtpp"/>
@@ -24,6 +27,7 @@
         <view class="info">足不出户 咨询专家</view>
       </view>
     </navigator>
+
     <navigator url="/pages/user/user" open-type="navigate" class="nav-btn active" hover-class="nav-hover">
       <view class="matrix-btn user">
         <icon class="user"/>
@@ -32,16 +36,17 @@
       </view>
     </navigator>
   </view>
+
   <!--matrix end-->
   <view class='activity'>
-   
   </view>
+
   <!-- activity end-->
   <view class="diagnosis">
-    
   </view>
+  
   <!--ask-icon end-->
-  <view class="comment">
+  <!--view class="comment">
     <view class="c-title">真实评论</view>
     <view class="c-list" wx:for="{{commentlist}}" wx:key="index">
       <view class="c-l-face"><image src="{{commentlist[index].face}}"></image></view>
@@ -55,11 +60,11 @@
     </view>
     <!--c-list end-->
     <!--c-list end-->
-    <view style="clear: both;"></view>
+    <!--view style="clear: both;"></view>
     <view bindtap="onLoadMoreDoctList" wx:if="{{is_more}}"  class="more">展开更多评价</view>
     <view wx:if="{{is_loadnull}}"  class="loadnull"><text>暂无更多数据</text></view>
-  </view>
-  <!--comment end-->
+  </view-->
+  <!--comment end>
   <template is="foot" />
-  <view class="phone" bindtap="onMakePhone"></view>
+  <view class="phone" bindtap="onMakePhone"></view-->
 </view>

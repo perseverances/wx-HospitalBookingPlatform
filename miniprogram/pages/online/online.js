@@ -1,18 +1,33 @@
-//pages/online/online.js
+// pages/online/online.js
+//获取应用实例
+const db = wx.cloud.database()
+var app = getApp()
 Page({
-
+  
   /**
    * 页面的初始数据
    */
   data: {
-
+    signupimg: '/miniprogram/pages/online/image/1.png',
+    imgsrc: '../../image/1.png',
+    iconsrc: '../../image/1.png',
   },
+  save(e) {
+    db.collection('doctor').doc('北医三院').get({
+      success: function (res) {
+       // res.data 包含该记录的数据
+       data1:res.data
+       console.log(res.data)
+      }
+    })
+  },
+
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log("接收到的参数是str=" + options.str)
+
   },
 
   /**

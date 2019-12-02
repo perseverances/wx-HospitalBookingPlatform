@@ -1,4 +1,4 @@
-// pges/online/online.js
+//pages/online/online.js
 Page({
 
   /**
@@ -12,7 +12,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    console.log("接收到的参数是str=" + options.str)
   },
 
   /**

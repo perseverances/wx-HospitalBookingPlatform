@@ -1,0 +1,40 @@
+<!--pages/date/date.wxml-->
+<view class="container">
+  <view class="online-head">
+    <image src="https://xcx.yzw0525.com/images/online_01.jpg"></image>
+  </view>
+
+  <form bindsubmit="MyfromSubmit" report-submit="true">
+  <view class="Myfrom clear">
+    <view class="form-text">
+      <label>您的姓名：</label>
+      <input type="text" placeholder="仅用于预约使用" name="patients" maxlength="32" bindinput="nameInput" placeholder-class="input-placeholder" class="from-input" />
+    </view>
+    <view class="form-text">
+      <label>您的电话：</label>
+      <input type="text" placeholder="仅用于预约使用" maxlength="11" bindinput="phoneInput" name="tel" placeholder-class="input-placeholder" class="from-input" />
+    </view>
+    <view class="form-text">
+      <label>预约日期：</label>
+      <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+        <input value='{{time}}' class="from-input" placeholder='选择时间'/>
+      </picker>
+    </view> 
+    <view class="form-text">
+      <label>预约医院：</label>
+      <input type="text" placeholder="填写您想要预约的医院" name="doctor" maxlength="32" bindinput="hosInput" placeholder-class="input-placeholder" class="from-input" />
+    </view>
+    <view class="form-text">
+      <label>预约专家：</label>
+      <input type="text" placeholder="填写您想要预约的医生" name="doctor" maxlength="32" bindinput="doctorInput" placeholder-class="input-placeholder" class="from-input" />
+    </view>
+  </view>
+  <!--view class="form-textarea">
+      <textarea maxlength="200" bindinput="testInput" name="content" placeholder-class="input-placeholder" placeholder="简单描述您的症状或者病情" />
+  </view-->
+  <view class="form-submit">
+      <button size="default" loading="{{loading}}" class="online-submit" form-type="submit" bindtap="save">加密提交       </button>
+  </view>
+  </form>
+
+</view>

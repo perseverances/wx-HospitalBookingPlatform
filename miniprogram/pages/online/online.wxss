@@ -1,13 +1,64 @@
-/* online.wxss */
-.online-head{width: 100%;height: 26.5%;}
-.Myfrom{width: 100%;background:#fff;display: block;margin-top: 1em;padding: 0 3%;}
-.form-text{width: 100%;height: 90rpx;border-bottom: #eeeeee 1px solid;color: #333;}
-.form-text label{float: left;height: 100%; width: 28%;font-size: 32rpx;line-height: 90rpx;}
-.form-text .from-input{width: 70%;float: left;height: 90%;font-size: 1.4em;line-height: 90rpx;margin-top: 1%;}
-.input-placeholder{font-size: 1em;line-height: 5em;color: #888;}
-.form-text .from-input .dateoption{line-height:80rpx;}
-.form-textarea{width: 100%;height: 9em;background:#fff;color: #333;margin-top: 1em;}
-.form-textarea textarea{width: 100%;height: 100%;font-size: 1.2em;line-height: 1.5em;padding: 0.5em;box-sizing:border-box;}
-.form-submit{width: 100%;height: 4em;margin: 2em auto;}
-.online-submit{width: 75%;margin: 5px auto;background-color: #39cdac;color: #fff;font-size: 1.4em;height: 90rpx;line-height:90rpx;letter-spacing: 2px;}
-.online-submit::before{content: "";display: block;width: 2em;height: 1.8em;position: absolute;top: 50%;left: 50%;background-size: auto 100%;background-repeat: no-repeat;margin-top:-0.9em;margin-left: -4.5em;background-image: url(https://xcx.yzw0525.com/images/online_04.svg);background-position: center;}
+/* pages/please/please.wxss */
+
+page{
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(#d7ce56e0, #48c3a49f);
+  display: flex;
+  flex-direction: column;
+}
+
+.anglesList{ 
+  display:flex;/*使用flex布局*/ 
+  align-items:center;/*子元素在垂直方向居中对齐 */
+  padding:25rpx 25rpx 25rpx 0;/*留出边距 */
+  margin-left:25rpx;/*其实可以写在内边距中*/ 
+  border-bottom:1px solid #f1f1f1; 
+}
+/*anglesList的子元素指两个navigator 
+/*头像和内容区域*/
+.anglesList .anglesNavigator{ 
+  display:flex;
+  align-items:center;
+  flex-grow:1;/*放大，占据剩余的空间 */
+} 
+/*头像父层*/
+.anglesList .imgBox{ 
+  flex:0 0 110rpx;/*flex 是flex-grow, flex-shrink 和 flex-basis的简写。flex:0 0 110rpx的意思是不放大 不缩小 固定宽度是110rpx*/ 
+  width:110rpx; 
+  height:110rpx; 
+  border-radius:50%; 
+  padding:5rpx; 
+  margin-right:20rpx; 
+  background:linear-gradient(#fff,#6a6969); 
+} 
+/*头像*/
+.anglesList .imgBox image{ 
+  width:110rpx; 
+  height:110rpx; 
+  border-radius:50%; 
+} 
+/*文字区域*/
+.anglesList .textBox{ 
+  flex-grow:1;
+} 
+/*文本限制宽度，超出隐藏 */
+.anglesList text{ 
+  display:block; 
+  max-width:12em; 
+  overflow:hidden; 
+  white-space:nowrap; 
+  text-overflow:ellipsis; 
+}
+/*按钮 */
+.btnFollow{ 
+  flex-basis:140rpx;
+  height:46rpx; 
+  border:1px solid #007ae8; 
+  border-radius:24rpx; 
+  background:#fff; 
+  text-align:center; 
+  font-size:28rpx; 
+  line-height:46rpx; 
+  color:#007ae8; 
+}
