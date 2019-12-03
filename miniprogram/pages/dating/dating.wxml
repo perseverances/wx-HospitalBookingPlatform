@@ -33,7 +33,7 @@
       <textarea maxlength="200" bindinput="testInput" name="content" placeholder-class="input-placeholder" placeholder="简单描述您的症状或者病情" />
   </view-->
   <view class="form-submit">
-      <button size="default" loading="{{loading}}" class="online-submit" form-type="submit" bindtap="save">加密提交       </button>
+      <button size="default" loading="{{loading}}" class="online-submit" form-type="submit" bindtap="save">提交       </button>
   </view>
   </form>
 
