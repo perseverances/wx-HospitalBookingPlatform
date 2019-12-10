@@ -3,7 +3,7 @@
 .Myfrom{width: 100%;background:#fff;display: block;margin-top: 1em;padding: 0 3%;}
 .form-text{width: 100%;height: 90rpx;border-bottom: #eeeeee 1px solid;color: #333;}
 .form-text label{float: left;height: 100%; width: 28%;font-size: 32rpx;line-height: 90rpx;}
-.form-text .from-input{width: 70%;float: left;height: 90%;font-size: 1.4em;line-height: 90rpx;margin-top: 1%;}
+.form-text .from-input{width: 70%;float: left;height: 90%;font-size: 1em;line-height: 90rpx;margin-top: 1%;}    /*  font-size设置字体大小   */
 .input-placeholder{font-size: 1em;line-height: 5em;color: #888;}
 .form-text .from-input .dateoption{line-height:60rpx;}
 .form-textarea{width: 100%;height: 9em;background:#fff;color: #333;margin-top: 1em;}
