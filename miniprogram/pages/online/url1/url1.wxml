@@ -23,6 +23,6 @@
       </block>
     </view>
     <!--如果无数据，则显示数据-->
-    <view class="nodata_text" wx:else>该分类暂无数据</view>
+    <view class="nodata_text" wx:else>该科室挂号数已用完</view>
   </view>
 </view>

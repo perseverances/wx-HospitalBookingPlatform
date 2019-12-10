@@ -88,7 +88,7 @@ Page({
       },
       {
         cate_id: 4,
-        cate_name: "其他",
+        cate_name: "中医科",
         ishaveChild: false,
         children: []
       }

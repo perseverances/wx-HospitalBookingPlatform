@@ -65,7 +65,7 @@ Page({
           [
             {
               child_id: 1,
-              name: '肖静',
+              name: '裘静',
               image: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574652161331&di=ab4f09122492749ca3488cc8449e20cb&imgtype=0&src=http%3A%2F%2Fpic.90sjimg.com%2Fdesign%2F01%2F40%2F91%2F47%2F5934ca24474e3.png"
             }
           ]
@@ -78,12 +78,79 @@ Page({
           [
             {
               child_id: 1,
-              name: '向瑜',
+              name: '王韬',
               image: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574652161331&di=ab4f09122492749ca3488cc8449e20cb&imgtype=0&src=http%3A%2F%2Fpic.90sjimg.com%2Fdesign%2F01%2F40%2F91%2F47%2F5934ca24474e3.png"
             },
             
           ]
+      },
+
+
+
+
+
+
+      {
+        cate_id: 6,
+        cate_name: "妇产科",
+        ishaveChild: true,
+        children:
+          [
+            {
+              child_id: 1,
+              name: '李连峰',
+              image: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574652161331&di=ab4f09122492749ca3488cc8449e20cb&imgtype=0&src=http%3A%2F%2Fpic.90sjimg.com%2Fdesign%2F01%2F40%2F91%2F47%2F5934ca24474e3.png"
+            },
+
+          ]
+      },
+      {
+        cate_id: 7,
+        cate_name: "儿科",
+        ishaveChild: true,
+        children:
+          [
+            {
+              child_id: 1,
+              name: '贾风云',
+              image: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574652161331&di=ab4f09122492749ca3488cc8449e20cb&imgtype=0&src=http%3A%2F%2Fpic.90sjimg.com%2Fdesign%2F01%2F40%2F91%2F47%2F5934ca24474e3.png"
+            },
+
+          ]
+      },
+      {
+        cate_id: 8,
+        cate_name: "骨外科",
+        ishaveChild: true,
+        children:
+          [
+            {
+              child_id: 1,
+              name: '黄豪',
+              image: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574652161331&di=ab4f09122492749ca3488cc8449e20cb&imgtype=0&src=http%3A%2F%2Fpic.90sjimg.com%2Fdesign%2F01%2F40%2F91%2F47%2F5934ca24474e3.png"
+            },
+
+          ]
+      },
+      {
+        cate_id: 9,
+        cate_name: "肿瘤科",
+        ishaveChild: true,
+        children:
+          [
+            {
+              child_id: 1,
+              name: '王培新',
+              image: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574652161331&di=ab4f09122492749ca3488cc8449e20cb&imgtype=0&src=http%3A%2F%2Fpic.90sjimg.com%2Fdesign%2F01%2F40%2F91%2F47%2F5934ca24474e3.png"
+            },
+
+          ]
       }
+
+
+
+
+
 
     ],
     curNav: 1,

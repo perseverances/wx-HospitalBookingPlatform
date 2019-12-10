@@ -4,7 +4,7 @@
   <navigator url='url1/url1' class="anglesNavigator"> 
     <!--图片套个view是为了渐变的边框（其实是背景色渐变，border-radius后border写不上渐变）。--> 
     <view class="imgBox"> 
-      <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574612556026&di=cf3b14de61135503d823e61bfddaf0e2&imgtype=0&src=http%3A%2F%2Fimg.qqzhi.com%2Fuploads%2F2018-12-06%2F234313309.jpg" mode="aspectFill"></image> 
+      <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1575965115854&di=4f84c7701cbd1074b22f69f3ac9e3996&imgtype=0&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic2%2Fcover%2F00%2F30%2F28%2F5810794eccdd5_610.jpg" mode="aspectFill"></image> 
       <!--images中的mode="aspectFill"让图片保持纵横比缩放，让图片的短边能完全显示出来。确保取到的图片不是正方形时不留空白。--> 
     </view> 
     <view class="textBox"> 
@@ -21,7 +21,7 @@
   <navigator url='url2/url2' class="anglesNavigator"> 
     <!--图片套个view是为了渐变的边框（其实是背景色渐变，border-radius后border写不上渐变）。--> 
     <view class="imgBox"> 
-      <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574612556026&di=cf3b14de61135503d823e61bfddaf0e2&imgtype=0&src=http%3A%2F%2Fimg.qqzhi.com%2Fuploads%2F2018-12-06%2F234313309.jpg" mode="aspectFill"></image> 
+      <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1575964990295&di=10f567ae017d27bb600f2a26b5446e9f&imgtype=0&src=http%3A%2F%2Fwww.51yuansu.com%2Fpic2%2Fcover%2F00%2F31%2F89%2F5810d1391b12c_610.jpg" mode="aspectFill"></image> 
       <!--images中的mode="aspectFill"让图片保持纵横比缩放，让图片的短边能完全显示出来。确保取到的图片不是正方形时不留空白。--> 
     </view> 
     <view class="textBox"> 
@@ -37,7 +37,7 @@
   <navigator url='url3/url3' class="anglesNavigator"> 
     <!--图片套个view是为了渐变的边框（其实是背景色渐变，border-radius后border写不上渐变）。--> 
     <view class="imgBox"> 
-      <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574612556026&di=cf3b14de61135503d823e61bfddaf0e2&imgtype=0&src=http%3A%2F%2Fimg.qqzhi.com%2Fuploads%2F2018-12-06%2F234313309.jpg" mode="aspectFill"></image> 
+      <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1576559811&di=1a9aa1a84717b0e8d80e0184ef08f186&imgtype=jpg&er=1&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic2%2Fcover%2F00%2F30%2F88%2F5810975784b09_610.jpg" mode="aspectFill"></image> 
       <!--images中的mode="aspectFill"让图片保持纵横比缩放，让图片的短边能完全显示出来。确保取到的图片不是正方形时不留空白。--> 
     </view> 
     <view class="textBox"> 
@@ -47,4 +47,52 @@
     </view> 
   </navigator> 
   <navigator url='url3/url3' class="btnFollowed">可预约</navigator> 
+</view>
+
+<view class="anglesList"> 
+  <navigator url='url3/url3' class="anglesNavigator"> 
+    <!--图片套个view是为了渐变的边框（其实是背景色渐变，border-radius后border写不上渐变）。--> 
+    <view class="imgBox"> 
+      <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1575965258230&di=cb677fd83719c6a83cab543575986ddd&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F5a5adc8647b378753077f11880ef82e9fb0dc33a9802-uLGZ2J_fw658" mode="aspectFill"></image> 
+      <!--images中的mode="aspectFill"让图片保持纵横比缩放，让图片的短边能完全显示出来。确保取到的图片不是正方形时不留空白。--> 
+    </view> 
+    <view class="textBox"> 
+      <text class="name">北京儿童医院</text>
+      <text class="companyName">三甲</text> 
+      <text class="num">西城</text> 
+    </view> 
+  </navigator> 
+  <navigator url='url3/url3' class="btnFollowed">可预约</navigator> 
+</view>
+
+<view class="anglesList"> 
+  <navigator url='url1/url1' class="anglesNavigator"> 
+    <!--图片套个view是为了渐变的边框（其实是背景色渐变，border-radius后border写不上渐变）。--> 
+    <view class="imgBox"> 
+      <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1575965357754&di=8d88734251946f3d03fc522e4039365b&imgtype=0&src=http%3A%2F%2Fku.90sjimg.com%2Felement_origin_min_pic%2F18%2F03%2F20%2F0fff6919c322a9f3bede06fca41c0954.jpg%2521%2Ffwfh%2F804x804%2Fquality%2F90%2Funsharp%2Ftrue%2Fcompress%2Ftrue" mode="aspectFill"></image> 
+      <!--images中的mode="aspectFill"让图片保持纵横比缩放，让图片的短边能完全显示出来。确保取到的图片不是正方形时不留空白。--> 
+    </view> 
+    <view class="textBox"> 
+      <text class="name">积水潭医院</text>
+      <text class="companyName">三甲</text> 
+      <text class="num">西城</text> 
+    </view> 
+  </navigator> 
+  <navigator url='url1/url1' class="btnFollowed">可预约</navigator> 
+</view>
+
+<view class="anglesList"> 
+  <navigator url='url1/url1' class="anglesNavigator"> 
+    <!--图片套个view是为了渐变的边框（其实是背景色渐变，border-radius后border写不上渐变）。--> 
+    <view class="imgBox"> 
+      <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1575965357754&di=8d88734251946f3d03fc522e4039365b&imgtype=0&src=http%3A%2F%2Fku.90sjimg.com%2Felement_origin_min_pic%2F18%2F03%2F20%2F0fff6919c322a9f3bede06fca41c0954.jpg%2521%2Ffwfh%2F804x804%2Fquality%2F90%2Funsharp%2Ftrue%2Fcompress%2Ftrue" mode="aspectFill"></image> 
+      <!--images中的mode="aspectFill"让图片保持纵横比缩放，让图片的短边能完全显示出来。确保取到的图片不是正方形时不留空白。--> 
+    </view> 
+    <view class="textBox"> 
+      <text class="name">北京胸科甲院</text>
+      <text class="companyName">三甲</text> 
+      <text class="num">通州</text> 
+    </view> 
+  </navigator> 
+  <navigator url='url1/url1' class="btnFollowed">预约已满</navigator> 
 </view>
